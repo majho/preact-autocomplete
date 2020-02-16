@@ -1,0 +1,34 @@
+{
+  "name": "preact-autocomplete",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint lib/**/*.js --fix"
+  },
+  "keywords": [
+    "autocomplete",
+    "combobox",
+    "preact"
+  ],
+  "author": "Martin Johansson",
+  "license": "ISC",
+  "peerDependencies": {
+    "preact": "^10.3.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "preact": "^10.3.1"
+  }
+}
